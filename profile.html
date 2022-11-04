@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- nav bar -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt="logo"></a>
+
+            <div class="search-box">
+                <img src="images/search.png" alt="Search">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li>
+                    <a href="#" class="active-link"><img src="images/home.png" alt=""><span>Home</span></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/network.png" alt=""><span>My Network</span></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/jobs.png" alt=""><span>Jobs</span></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/message.png" alt=""><span>Messaging</span></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/notification.png" alt=""><span>Notifications</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="images/user-1.png" class="nav-profile-img" alt="User" onclick="toggleMenu()">
+            </div>
+
+        </div>
+
+        <!-- user profile -->
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="images/user-1.png" alt="">
+                    <div>
+                        <h3>Rayan Walton</h3>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/feedback.png" alt="">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/setting.png" alt="">
+                    <p>Give Settings & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/help.png" alt="">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/display.png" alt="">
+                    <p>display & Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/logout.png" alt="">
+                    <p>logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- -----------------------------------------nav bar end---------------------------------------------------------- -->
+    <div class="container">
+        <!-- profile main bar -->
+        <div class="profile-main">
+            <div class="profile-container">
+                <img src="images/cover-pic.png" alt="" width="100%">
+                <div class="profile-container-inner">
+                    <img src="images/user-1.png" class="profile-pic" alt="">
+                    <h1>Rayan Walton</h1>
+                    <b>Web developer at Microsoft | Former developer at Oracle</b>
+                    <p>San Fransisco, United States &middot;
+                        <a href="#">Contact Info</a>
+                    </p>
+                    <div class="mutual-connections">
+                        <img src="images/user-2.png" alt="">
+                        <span>1 mutual connection: Orlando Diggs</span>
+                    </div>
+                    <div class="profile-btn">
+                        <a href="#" class="primary-btn"><img src="images/connect.png" alt="">Connect</a>
+                        <a href="#"><img src="images/chat.png" alt="">Message</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-description">
+                <h2>About</h2>
+                <p>The success of every website depends on search engine optimasation and digital marketing strategy.If you are on first page of all major search engines then you are ahead among your competitors</p>
+                <a href="#" class="see-more-link">See more...</a>
+            </div>
+
+            <div class="profile-description">
+                <h2>Experience</h2>
+                <div class="profile-desc-row">
+                    <img src="images/microsoft.png" alt="">
+                    <div>
+                        <h3>Lead Front-End Developer</h3>
+                        <b>Microsoft &middot; Full-time</b>
+                        <b>Feb 2022- Present &middot; 1 year</b>
+                        <p>Computter programming is the process of performing a particulalr computatation, usually by designing and building an executable computer program</p>
+                        <hr>
+                    </div>
+                </div>
+
+
+                <div class="profile-desc-row">
+                    <img src="images/slack.png" alt="">
+                    <div>
+                        <h3>Full Slack Developer</h3>
+                        <b>Slack &middot; Full-time</b>
+                        <b>June 2021- Present &middot; 2 years</b>
+                        <p>Computter programming is the process of performing a particulalr computatation, usually by designing and building an executable computer program</p>
+                        <hr>
+                    </div>
+                </div>
+
+
+                <div class="profile-desc-row">
+                    <img src="images/google.png" alt="">
+                    <div>
+                        <h3>Web Developer</h3>
+                        <b>Google &middot; Full-time</b>
+                        <b>Jan 2022- Present &middot; 1 year</b>
+                        <p>Computter programming is the process of performing a particulalr computatation, usually by designing and building an executable computer program</p>
+
+                    </div>
+                </div>
+
+                <hr>
+                <a href="#" class="experience-link">Show all 7 experiences <img src="images/right-arrow.png" alt=""></a>
+            </div>
+
+            <div class="profile-description">
+                <h2>Education</h2>
+                <div class="profile-desc-row">
+                    <img src="images/stanford.png" alt="">
+                    <div>
+                        <h3>Stanford University</h3>
+                        <b>Bsc . Software Engineering</b>
+                        <b>2020-2024</b>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="profile-desc-row">
+                    <img src="images/north.png" alt="">
+                    <div>
+                        <h3>NorthWest University</h3>
+                        <b>Bsc . Software Engineering</b>
+                        <b>2020-2024</b>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="profile-desc-row">
+                    <img src="images/mit.png" alt="">
+                    <div>
+                        <h3>Harvard University</h3>
+                        <b>Bsc . Software Engineering</b>
+                        <b>2020-2024</b>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="profile-description">
+                <h2>Skills</h2>
+                <a href="#" class="skills-btn">Leadership</a>
+                <a href="#" class="skills-btn">Web Design</a>
+                <a href="#" class="skills-btn">UI/UX</a>
+                <a href="#" class="skills-btn">JavaScript</a>
+                <a href="#" class="skills-btn">Planning</a>
+                <a href="#" class="skills-btn">Communication</a>
+                <a href="#" class="skills-btn">Python</a>
+            </div>
+            <div class="profile-description">
+                <h2>Languages</h2>
+                <a href="#" class="language-btn">English</a>
+                <a href="#" class="language-btn">Germany</a>
+            </div>
+
+
+
+        </div>
+
+        <!-- profile side bar -->
+        <div class="profile-sidebar">
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
