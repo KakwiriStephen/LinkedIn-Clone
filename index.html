@@ -42,9 +42,48 @@
         </div>
         <div class="navbar-right">
             <div class="online">
-                <img src="images/user-1.png" class="nav-profile-img" alt="User">
+                <img src="images/user-1.png" class="nav-profile-img" alt="User" onclick="toggleMenu()">
             </div>
 
+        </div>
+
+        <!-- user profile -->
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="images/user-1.png" alt="">
+                    <div>
+                        <h3>Rayan Walton</h3>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/feedback.png" alt="">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/setting.png" alt="">
+                    <p>Give Settings & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/help.png" alt="">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/display.png" alt="">
+                    <p>display & Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/logout.png" alt="">
+                    <p>logout</p>
+                    <span>></span>
+                </a>
+            </div>
         </div>
 
     </nav>
@@ -378,7 +417,14 @@
 
 
     </div>
+    <!-- <script>
+        let profileMenu = document.getElementById('profileMenu');
 
+        function toggleMenu() {
+            profileMenu.classList.toggle('open-menu')
+        }
+    </script> -->
+    <script src="script.js"></script>
 </body>
 
 </html>
