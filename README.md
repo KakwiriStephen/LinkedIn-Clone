@@ -1,5 +1,5 @@
 ## LinkedIn-Clone
 
 Reproduced for learning purposes only
-&copy; Linkedin
+&copy;Linkedin2022
 
